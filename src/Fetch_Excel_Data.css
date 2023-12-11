@@ -1,0 +1,75 @@
+/* FetchData.css */
+
+/* Add borders to the table and its cells */
+.table-container {
+    width: 100%; /* Set the desired width for the table container */
+    height: 100%; /* Set the desired height for the table container */
+    overflow: auto; /* Add scrollbars if content exceeds the container */
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #dddddd;
+    padding: 9px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Define styles for even and odd rows */
+  .even-row {
+    background-color: #ffffff; /* White background for even rows */
+  }
+  
+  .odd-row {
+    background-color: #f0f0f0; /* Grey background for odd rows */
+  }
+
+  .table-scroll-container {
+    max-height: 100vh; /* Adjust the height as needed */
+    overflow: auto;
+  }
+
+  /* Thin scrollbar track */
+  .table-scroll-container::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  /* Handle */
+  .table-scroll-container::-webkit-scrollbar-thumb {
+    background: #888; /* Change the color of the scrollbar handle */
+    border-radius: 4px; /* Round the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  .table-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Change the color of the scrollbar handle on hover */
+  }
+
+  .header-cell {
+    font-size: 14px; /* Adjust the font size as needed */
+    font-weight: bold;
+  }
+  
+  .master-checkbox {
+    /* Increase checkbox size */
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    /* Add any other necessary styling for the master checkbox */
+  }
+  
+  /* Styling for the checkboxes in the table cells */
+  .checkbox {
+    /* Increase checkbox size */
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    /* Add any other necessary styling for the checkboxes */
+  }
